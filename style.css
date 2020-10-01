@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #021196;
+}
+
+.clock {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    /* border: solid 5px #fefefe; */
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.137),
+    inset 0 15px 15px rgb(255, 255, 255, 0.15),
+    0 15px 15px rgba(0, 0, 0, 0.3),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.num {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.num01 {
+    position: absolute;
+    transform: rotate(30deg);
+}
+#num01 {
+    margin: 20px;
+    transform: rotate(-30deg);
+}
+
+.num02 {
+    transform: rotate(60deg);
+}
+#num02 {
+    margin: 20px;
+    transform: rotate(-60deg);
+}
+
+.num03 {
+    position: absolute;
+    transform: rotate(90deg);
+}
+#num03 {
+    margin: 20px;
+    transform: rotate(-90deg);
+}
+
+.num04 {
+    position: absolute;
+    transform: rotate(120deg);
+}
+#num04 {
+    margin: 20px;
+    transform: rotate(-120deg);
+}
+
+.num05 {
+    position: absolute;
+    transform: rotate(150deg);
+}
+#num05 {
+    margin: 10px;
+    transform: rotate(-150deg);
+}
+
+.num06 {
+    position: absolute;
+    transform: rotate(180deg);
+}
+#num06 {
+    margin: 20px;
+    transform: rotate(-180deg);
+}
+
+.num07 {
+    position: absolute;
+    transform: rotate(210deg);
+}
+#num07 {
+    margin: 20px;
+    transform: rotate(-210deg);
+}
+
+.num08 {
+    position: absolute;
+    transform: rotate(240deg);
+}
+#num08 {
+    margin: 20px;
+    transform: rotate(-240deg);
+}
+
+.num09 {
+    position: absolute;
+    transform: rotate(270deg);
+}
+#num09 {
+    margin: 20px;
+    transform: rotate(-270deg);
+}
+
+.num10 {
+    position: absolute;
+    transform: rotate(300deg);
+}
+#num10 {
+    margin: 20px;
+    transform: rotate(-300deg);
+}
+
+.num11 {
+    position: absolute;
+    transform: rotate(330deg);
+}
+#num11 {
+    margin: 20px;
+    transform: rotate(-330deg);
+}
+
+#num12 {
+    margin: 20px;
+}
+
+.pointer {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+}
+
+.sec_pointer {
+    width: 1px;
+    height: 40%;
+    border-radius: 1px;
+    transform-origin: bottom center;
+}
+
+.min_pointer {
+    height: 38%;
+    width: 4px;
+    border-radius: 2px;
+    transform-origin: bottom center;
+}
+
+.hr_pointer {
+    height: 28%;
+    width: 8px;
+    border-radius: 4px;
+    transform-origin: bottom center;
+}
+
+.circle {
+    top: 48%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
