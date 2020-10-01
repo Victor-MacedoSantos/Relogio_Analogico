@@ -17,11 +17,8 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    /* border: solid 5px #fefefe; */
-    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.137),
-    inset 0 15px 15px rgb(255, 255, 255, 0.15),
-    0 15px 15px rgba(0, 0, 0, 0.3),
-    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -15px 15px rgba(0, 0, 0, 0.158),
+                0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .num {
